@@ -1,14 +1,14 @@
 {
   "bot-account": {
-    "username": "H2N.DEV",
+    "username": "AFKBot", 
     "password": "",
-    "type": "mojang"
+    "type": "offline"
   },
 
   "server": {
-    "ip": "HaiLord1207.aternos.me",
-    "port": 30869,
-    "version": "1.19.3"
+    "ip": "Tyrox_x.aternos.me", 
+    "port": 48211,   
+    "version": "1.12.1"   
   },
 
   "position": {
@@ -25,24 +25,23 @@
     },
 
     "anti-afk": {
-      "enabled": false,
-      "sneak": false
+      "enabled": true,
+      "sneak": true
     },
 
     "chat-messages": {
-      "enabled": false,
+      "enabled": true,
       "repeat": true,
       "repeat-delay": 60,
 
       "messages": [
-        "I'm a regular player ",
-        "My owner is urFate_ ",
-        "I want be alone ",
-        "Visit my Youtube page! (https://youtube.com/@H2N_OFFICIAL)"
+        "I'm a regular player",
+        "Subscibe To Tyrox!",
+        "I Like to Play Minecraft!"
       ]
     },
 
-    "chat-log": false,
+    "chat-log": true,
     "auto-reconnect": true,
     "auto-recconect-delay": 5000
   }

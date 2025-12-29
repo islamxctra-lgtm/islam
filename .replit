@@ -1,9 +1,6 @@
 language = "nix"
-run = "node ."
+run = "node index.js"
 
 [[ports]]
-localPort = 3000
+localPort = 8000
 externalPort = 80
-
-[agent]
-expertMode = true
